@@ -1,0 +1,1 @@
+@echo off Polyhedron.exe ../Data/TruncatedIcosahedron.txt

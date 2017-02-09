@@ -1,0 +1,35 @@
+Arbitrary values are used to test the rotation matrix.
+theta = 50.7227
+phi = 17.3974
+psi = 72.7866
+
+The rotation matrix is generated.
+Matrix = (
+(0.680104, -0.484345, 0.550334),
+(0.725092, 0.333647, -0.602429),
+(0.108166, 0.808758, 0.578110))
+
+The origin is rotated onto itself.
+Vector = (0.000000, 0.000000, 0.000000)
+Vector = (0.000000, 0.000000, 0.000000)
+
+A point on the axis is rotated onto itself.
+Vector = (0.738679, 0.231451, 0.633075)
+Vector = (0.738679, 0.231451, 0.633075)
+
+An arbitrary point is rotated around the axis.
+Vector = (0.350291, 0.479873, 0.585009)
+Vector = (0.327761, 0.061675, 0.764190)
+
+The distances of the arbitrary point and the rotated point from the axis are equal.
+distance = 0.463540
+distance = 0.463540
+
+The angle between the arbitrary point and the rotated point is equal to psi.
+angle = 72.786645
+
+The product of the matrix and its transpose is the identity matrix.
+Matrix = (
+(1.000000, -0.000000, 0.000000),
+(-0.000000, 1.000000, 0.000000),
+(0.000000, 0.000000, 1.000000))
